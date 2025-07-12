@@ -7,7 +7,7 @@ const fileCancelButton = document.querySelector("#file-cancel");
 
 // For single user mode, use user_id = 1
 const USER_ID = 1;
-const API_KEY = 'AIzaSyCy3_zainvL-YR1QGWLoBBZNGIGonsE9L4';
+const API_KEY = 'Your API Key';
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 
