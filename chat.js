@@ -80,7 +80,7 @@ const handleOutgoingMessage = async (e) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
             userId: USER_ID,
-            sender: 'user',
+          sender: 'user',
             text: userData.message,
             file: userData.file.data ? userData.file : null
         })
