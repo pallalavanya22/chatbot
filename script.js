@@ -9,7 +9,7 @@ const fileCancelButton = document.querySelector("#file-cancel");
 const userId = localStorage.getItem("userId");
 
 // Gemini API
-const API_KEY = 'AIzaSyATpTlMhCx9jI9NOW8Eq7Ma_oj0UGiRcvw';
+const API_KEY = 'Your API KEY';
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 let userData = {
